@@ -63,7 +63,7 @@
             var intArray = obj as Int32[];
             if (intArray != null)
             {
-                return string.Join(".", intArray);
+                return string.Join(",", intArray);
             }
 
             var intValue = obj as Enum;
